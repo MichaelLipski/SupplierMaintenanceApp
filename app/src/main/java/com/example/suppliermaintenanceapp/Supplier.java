@@ -1,0 +1,33 @@
+package com.example.suppliermaintenanceapp;
+
+import java.io.Serializable;
+
+public class Supplier implements Serializable {
+    private int supplierId;
+    private String supplierName;
+
+    public Supplier(int supplierId, String supplierName) {
+        this.supplierId = supplierId;
+        this.supplierName = supplierName;
+    }
+
+    public int getSupplierId() {
+        return supplierId;
+    }
+
+    public void setSupplierId(int supplierId) {
+        this.supplierId = supplierId;
+    }
+
+    public String getSupplierName() {
+        return supplierName;
+    }
+
+    public void setSupplierName(String supplierName) {
+        this.supplierName = supplierName;
+    }
+
+    @Override
+    public String toString() { return supplierId + " " + ">" + " " + supplierName; }
+
+}
