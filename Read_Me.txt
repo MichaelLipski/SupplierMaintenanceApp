@@ -1,0 +1,1 @@
+Simple Android app that allows the user to maintain supplier information, add new suppliers and delete existing suppliers.
